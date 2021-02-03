@@ -9,6 +9,7 @@ a,
 a:focus,
 a:hover {
     color: #fff;
+    text-decoration: none;
 }
 
 
@@ -57,7 +58,9 @@ body {
 h1 {
     color: #ffffff;
     font-weight: 400;
+    font-size: 2em;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, 0.863);
+    margin-bottom: 1em;
 }
 
 h3 {
@@ -143,9 +146,72 @@ h5 {
 
 /* Custom cards */
 
-.menucard {
-    max-width: 500px;
+.card-neumorph {
     margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em !important;
+    height: auto;
+    width: 90%;
+    max-width: 500px;
+    padding: 1.5em;
+    border-radius: 50px;
+    background: #151b5f;
+    box-shadow: inset 0 0 15px rgba(55, 82, 170, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(76, 55, 170, 0.15), -7px -7px 20px rgba(63, 70, 175, 0.705), inset 0px 0px 4px rgba(255, 255, 255, .2);
+}
+
+.card-image-neumorph {
+    width: 100% !important;
+    border-radius: 1em;
+    box-shadow: 0px 10px 15px rgba(55, 57, 170, 0.25);
+}
+
+.card-colour-beige {
+    padding-top: 1em !important;
+    color: black !important;
+    background-color: #ccc9f1 !important;
+}
+
+.item-p {
+    text-align: left;
+    font-size: 1.2em;
+    margin-bottom: -0.5em;
+    margin-top: 0.5em;
+}
+
+.button {
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    padding: 0.8em 2em 2em 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #161d66 !important;
+    width: auto;
+    height: 33px;
+    text-decoration: none;
+    color: #fff;
+    outline: none !important;
+    border: .0625rem solid #0f1550;
+    border-radius: 25px;
+    font-weight: 700;
+    font-size: 1em;
+    font-family: 'Nunito Sans', sans-serif;
+    box-shadow: 5px 10px 15px #3743aa28, -5px -8px 15px #7e76c740;
+    transition: 0.3s !important;
+}
+
+.button:hover {
+    background: #05092c;
+    border: .0625rem solid #41801c00;
+    box-shadow: inset 2px 2px 5px #080c2c, inset -3px -3px 7px #1900ff40;
+}
+
+button:active {
+    outline: none !important;
+}
+
+button:focus {
+    outline: none !important;
 }
 
 .backcard {
@@ -171,7 +237,7 @@ h5 {
 }
 
 .card-colour-darkblue {
-    background-color: #6118b4;
+    background-color: transparent;
 }
 
 
