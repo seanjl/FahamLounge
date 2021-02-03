@@ -155,8 +155,8 @@ h5 {
     max-width: 500px;
     padding: 1.5em;
     border-radius: 50px;
-    background: #151b5f;
-    box-shadow: inset 0 0 15px rgba(55, 82, 170, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(76, 55, 170, 0.15), -7px -7px 20px rgba(63, 70, 175, 0.705), inset 0px 0px 4px rgba(255, 255, 255, .2);
+    background: #181e5e;
+    box-shadow: inset 0 0 15px rgba(27, 47, 105, 0), inset 0 0 20px rgba(255, 255, 255, 0), 7px 7px 15px rgba(55, 84, 170, .15), -7px -7px 20px rgb(50, 45, 136), inset 0px 0px 4px rgba(11, 17, 94, 0.2);
 }
 
 .card-image-neumorph {
@@ -181,7 +181,7 @@ h5 {
 .button {
     margin: auto;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 0.5em;
     padding: 0.8em 2em 2em 2em;
     display: flex;
     flex-direction: column;
@@ -191,12 +191,12 @@ h5 {
     text-decoration: none;
     color: #fff;
     outline: none !important;
-    border: .0625rem solid #0f1550;
+    border: .0625rem solid #121858;
     border-radius: 25px;
     font-weight: 700;
     font-size: 1em;
     font-family: 'Nunito Sans', sans-serif;
-    box-shadow: 5px 10px 15px #3743aa28, -5px -8px 15px #7e76c740;
+    box-shadow: 5px 10px 15px #3743aa28, -5px -8px 15px #574fa340;
     transition: 0.3s !important;
 }
 
